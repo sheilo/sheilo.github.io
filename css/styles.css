@@ -1,0 +1,107 @@
+/**
+LAYOUT
+**/
+.content {
+	position: absolute;
+	background: rgb(255, 255, 255);
+}
+
+.superbox-list {
+  display:inline-block;
+  *display:inline;
+  zoom:1;
+  width:12.5%;
+}
+
+/**
+HEADER
+**/
+
+.heading{
+	background: rgb(120, 214, 75);
+}
+
+.statement{
+	padding: 40px 10px;
+}
+
+header img {
+	padding-top: 30px;
+	width: 100%;
+}
+
+
+
+/**
+FONTS
+**/
+
+h1, 
+h2, 
+h3, 
+p, 
+a {
+	font-family: 'Quicksand', sans-serif
+}
+
+h1, 
+h2, 
+h3  {
+	font-weight: 700;
+}
+
+.heading h1,
+.heading h2, 
+.heading h3, 
+.heading p,
+.heading a {
+	color: rgb(255, 255, 255);
+}
+
+.heading h1:hover,
+.heading h2:hover, 
+.heading h3:hover, 
+.heading p:hover,
+.heading a:hover {
+	font-weight: 700;
+	transition: color .55s;
+}
+
+.content p:hover, 
+.content h1:hover, 
+.content h2:hover, 
+.content h3:hover{
+	color: rgb(12, 34, 11);
+	font-weight: 700;
+	transition: color .55s;
+}
+
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3, 
+p, 
+a{
+	font-size: 1em;
+}
+
+a:hover, 
+a:active{
+	color: rgb(120, 214, 75);
+	background: rgb(255, 255, 255);
+	transition: background .55s;
+}
+
+.content h1, 
+.content h2, 
+.content h3,
+.content p{
+	margin: 0;
+	color: rgb(120, 214, 75);
+}
